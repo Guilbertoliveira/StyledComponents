@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import privado from "../../assets/images/privado.svg";
 import olho_icone from "../../assets/images/olho.svg";
 import dinheiro from "../../assets/images/dinheiro.svg";
-import { Icone, Box, Btn, Saldo, Detalhe } from "../UI/index.js";
+import { Icone, Box, Btn, Saldo, Detalhe } from "../UI/index";
 import styled from "styled-components";
 
 

@@ -2,7 +2,7 @@ import React from "react";
 import Titulo from "../Titulo";
 import Conta from "../Conta";
 import styled from "styled-components";
-
+import Extrato from "../Extrato";
 
 const Container = styled.div`
   background-color: #f1f1f1;
@@ -22,12 +22,16 @@ const ConteudoSection = styled.section`
 
 export default () => {
   return (
-    <Container>
-      <Titulo>Olá Fulano!</Titulo>
-      <ConteudoSection>
-        <Conta />
-      </ConteudoSection>
-    </Container>
+    <>
+      <Container>
+        <Titulo>Olá Fulano!</Titulo>
+        <ConteudoSection>
+          <Conta />
+          <Extrato></Extrato>
+        </ConteudoSection>
+      </Container>
+     
+    </>
   );
 };
 
