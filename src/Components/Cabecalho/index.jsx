@@ -29,6 +29,7 @@ height: 50px;
 width: 50px;
 `;
 
+
 const Cabecalho = () => {
   return (
     <StyledHeader>
