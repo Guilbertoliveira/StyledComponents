@@ -61,8 +61,12 @@ export const BtnTema = styled.button`
     cursor: pointer;
 
     @media screen and (max-width: 480px) {
-    right: 20px;
-    top: 3.4vh;
+    position: fixed;
+    background-color: #41d3be;
+    padding: 3vw;
+    right: 10px;
+    border-radius: 50px;
+    top: 90%
 
     }
 `
