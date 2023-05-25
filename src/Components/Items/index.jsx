@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import ItemTeste from "../ItemTeste";
+import ItensCenter from "../ItensCenter";
 import ImageFilter from "../ImageFilter";
 
 
@@ -20,7 +20,7 @@ font-size: 12px
 export default ({id, type, from, value, date}) => {
     return <Items>
                 {ImageFilter(type)}
-                <ItemTeste from={from} value={value} type={type}></ItemTeste>
+                <ItensCenter from={from} value={value} type={type}></ItensCenter>
                 <div>{type}</div>
         
            </Items>

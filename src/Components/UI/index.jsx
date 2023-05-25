@@ -54,9 +54,15 @@ font-size: 32px;`;
 
 export const BtnTema = styled.button`
     position: absolute;
-    top: 4vh;
+    top: 3vh;
     right: 20px;
     background-color: inherit;
     border: none;
     cursor: pointer;
+
+    @media screen and (max-width: 480px) {
+    right: 20px;
+    top: 3.4vh;
+
+    }
 `

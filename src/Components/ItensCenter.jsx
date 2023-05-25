@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 
-const ItemTeste = styled.div`
+const ItensCenter = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -14,10 +14,10 @@ const ItemTeste = styled.div`
 
 export default ({type, from, value}) => {
     return (
-        <ItemTeste>
+        <ItensCenter>
             <span className="text">{type}</span>
             <span className="text">{from}</span>
             <span className="text">{value}</span>
-        </ItemTeste>
+        </ItensCenter>
     )
 }
