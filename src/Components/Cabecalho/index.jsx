@@ -2,6 +2,7 @@ import React from "react";
 import bank_logo from "../../assets/images/bank_logo.svg";
 import {corPrimaria} from '../UI/variaveis';
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 const StyledHeader = styled.nav`
@@ -40,9 +41,12 @@ const Cabecalho = () => {
     <StyledHeader>
       <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <BtnCabecalho primary href="https://google.com">
+      <Link to={'/'}><BtnCabecalho primary>
+          Inicio
+        </BtnCabecalho></Link>
+        <Link to={'/ajuda'}><BtnCabecalho primary>
           Ajuda
-        </BtnCabecalho>
+        </BtnCabecalho></Link>
         <BtnCabecalho href="https://google.com">
           Sair
         </BtnCabecalho>
