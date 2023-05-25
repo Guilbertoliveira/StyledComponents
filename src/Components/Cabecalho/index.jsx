@@ -7,8 +7,8 @@ import styled from "styled-components";
 const StyledHeader = styled.nav`
   background-color: ${corPrimaria};
   display: flex;
-  justify-content: space-between;
-  padding: 0 15vw;
+  justify-content: space-around;
+  padding: 0 1vw;
   height: 10vh;
   align-items: center;
 `
@@ -27,6 +27,11 @@ color: ${(props) => props.primary ? corPrimaria : "white"};
 const Logo = styled.img`
 height: 50px;
 width: 50px;
+
+@media screen and (max-width: 480px) {
+display:none;
+}
+
 `;
 
 
