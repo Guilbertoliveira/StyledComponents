@@ -39,6 +39,29 @@
   <li>New page creation</li>    
   <li>Route library insertion, configuration</li>    
 </ul>
-    
+
+<h2>To use the project:</h2>
+<ol>
+
+<li>Clone repository with gitbash</li>
+
+```
+git clone https://github.com/Guilbertoliveira/StyledComponents.git
+```
+
+<li>To install project dependencies (you need to have node.js installed)</li>
+
+```
+npm install
+```
+
+<li>To run the project locally</li>
+
+```
+npm start
+```
+
+</ol>
+
 <h2> Project link </h2>
 <a href="https://styledcomponentspages.vercel.app/">Link Vercel</a>
