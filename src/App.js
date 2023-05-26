@@ -10,13 +10,15 @@ function App() {
 
 
   return (
-   
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<PaginaInicial></PaginaInicial>}></Route>
-        <Route path="/ajuda" element={<Ajuda></Ajuda>}></Route>
-      </Routes>
-    </BrowserRouter>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<PaginaInicial></PaginaInicial>}></Route>
+          <Route path="/ajuda" element={<Ajuda></Ajuda>}></Route>
+          
+        </Routes>
+      </BrowserRouter>
+    
     
     
   );
