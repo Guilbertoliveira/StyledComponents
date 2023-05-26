@@ -12,9 +12,6 @@ color: gray;
 text-align: center;
 `
 
-const ContainerAjuda = styled.div`
-background-color: red;
-heigth: 10vh;`
 
 export default function Ajuda(){
    return( <>
